@@ -6,22 +6,20 @@
 
 Wie können Sie Ihr Projekt aus der Lernperiode 4 um eine Persistenz-Lösung erweitern? Was gibt es zu speichern, was für Tabellen brauchen Sie und wie muss der bestehende Code mit diesen interagieren?
 
-> ...
+In der Lernperiode-4 habe ich ein Blackjack gemacht und nun werde ich das mit einer SQL-Datenbank erweitern. In meinem Blackjack muss ich die Jetons und das Geld speichern, dass das Spiel hat. Dann werde ich noch ein Anmelde formular programmieren und denn Benutzernamen und die Passwörter darin speichern. 
 
 ## 2.5
 
-- [ ] ...
-- [ ] ...
+- [x] Datenbank erstellen 
+- [x] Tabellen erstellen
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, Ihr bestehendes Projekt und die Neuerungen von heute hochzuladen. Beschreiben Sie eindeutig, was heute an Code dazugekommen ist.
+Heute habe ich viel gemacht. Ich habe eine Datenbank BlackJack erstellt und 3 Tabellen hinzugefügt mit Primary und Foreign key. Danach habe ich meine datenbank mit Visual Studio verbunden und habe alles notwenige für das heruntergeladen. Zum Schluss habe ich noch angefangen mit dem Arbeitspacket von nächster Woche.
 
 ## 9.5 Kernfunktionalität
 
-- [ ] ... (dieses AP sollte zur Hälfte offline, also ohne Laptop zu bearbeiten sein — beispielsweise ein Datenmodell?)
-- [ ] ...
-- [ ] ...
+- [ ] LogIn progrannieren mit abfrage in SQL
+- [ ] SignIn programmieren mit Daten Einsetzen in SQL
+- [ ] Daten vervollständigen mit Guthaben
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
