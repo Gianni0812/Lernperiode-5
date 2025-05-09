@@ -7,29 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Data.SQLite;
 
 namespace Lern_Oeriode_4
 {
-    public partial class LogIn : Form
+    public partial class register : Form
     {
-        public LogIn()
+        public register()
         {
             InitializeComponent();
-
-        }
-
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        //Registrieren 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
