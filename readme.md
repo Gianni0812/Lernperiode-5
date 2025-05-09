@@ -21,16 +21,16 @@ Heute habe ich viel gemacht. Ich habe eine Datenbank BlackJack erstellt und 3 Ta
 - [ ] SignIn programmieren mit Daten Einsetzen in SQL
 - [ ] Daten vervollständigen mit Guthaben
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich leider nichts geschaft was ich schafen wollte. Alles was ich probiert habe hat nicht funktioniert. Ich habe als erstes eine neue Datenbank gemacht. Eine die in Visual Studio erstellt wurde. Dort habe ich Tabellen erstellt die ich in meiner anderen Datenbank auch hatte. Dann habe ich probiert anzufangen mit dem Coden, es hat aber nicht sehr gut geklappt. Ich werde dies nächste Woche deutlich besser machen.
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
+
 
 ## 16.5 Kernfunktionalität und Ausbau
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] LogIn progrannieren mit abfrage in SQL
+- [ ] SignIn programmieren mit Daten Einsetzen in SQL
+- [ ] Daten vervollständigen mit Guthaben
+- [ ] Alle meine Speicherorte auf die Datenbank übertragen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
