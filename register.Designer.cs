@@ -38,6 +38,7 @@
             label4 = new Label();
             textBox5 = new TextBox();
             label5 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label3
@@ -54,14 +55,14 @@
             // 
             textBox1.Location = new Point(62, 37);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(195, 31);
+            textBox1.Size = new Size(335, 31);
             textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
             textBox2.Location = new Point(62, 99);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(195, 31);
+            textBox2.Size = new Size(335, 31);
             textBox2.TabIndex = 7;
             // 
             // label1
@@ -78,7 +79,7 @@
             // 
             textBox3.Location = new Point(62, 161);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(195, 31);
+            textBox3.Size = new Size(335, 31);
             textBox3.TabIndex = 9;
             // 
             // label2
@@ -95,7 +96,7 @@
             // 
             textBox4.Location = new Point(62, 223);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(195, 31);
+            textBox4.Size = new Size(335, 31);
             textBox4.TabIndex = 11;
             // 
             // label4
@@ -112,7 +113,7 @@
             // 
             textBox5.Location = new Point(62, 285);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(195, 31);
+            textBox5.Size = new Size(335, 31);
             textBox5.TabIndex = 13;
             // 
             // label5
@@ -125,11 +126,22 @@
             label5.TabIndex = 12;
             label5.Text = "Passwort";
             // 
+            // button1
+            // 
+            button1.Location = new Point(290, 355);
+            button1.Name = "button1";
+            button1.Size = new Size(134, 46);
+            button1.TabIndex = 14;
+            button1.Text = "Registrieren ";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // register
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(textBox5);
             Controls.Add(label5);
             Controls.Add(textBox4);
@@ -157,5 +169,6 @@
         private Label label4;
         private TextBox textBox5;
         private Label label5;
+        private Button button1;
     }
 }
