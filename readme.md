@@ -27,22 +27,19 @@ Heute habe ich leider nichts geschaft was ich schafen wollte. Alles was ich prob
 
 ## 16.5 Kernfunktionalität und Ausbau
 
-- [ ] LogIn progrannieren mit abfrage in SQL
-- [ ] SignIn programmieren mit Daten Einsetzen in SQL
+- [x] LogIn progrannieren mit abfrage in SQL
+- [x] SignIn programmieren mit Daten Einsetzen in SQL
 - [ ] Daten vervollständigen mit Guthaben
 - [ ] Alle meine Speicherorte auf die Datenbank übertragen
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
+Heute habe ich viel Zeit damit verbracht Tutorials zu schauen und im internet zu recherchieren. Ich habe den code grundsätzlich fertig und er sollte soweit funktionieren. Ich habe es leider aber nicht geschaft, dass wenn ich etwas eingebe as das in der Datenbank gespeichert wird, weil ich es nicht hinbekommen habe den Pfad richtig zu finden. Nach jeglichen versuchen bin ich immer wieder gescheitert. Dies Probiere ich nächste Woche zu ändern und noch zu schafen.
 
 ## 23.5 Abschluss
 
-- [ ] ...
-- [ ] ... (falls Ihnen nichts einfällt: Können Sie mit einem PowerShell-Skript von Ihrer Datenbank regelmäßig ein *backup* erstellen?)
-- [ ] Reflexion über Ihre Arbeitsweise
-- [ ] Beschreibung des fertigen Projekts mit .gif etc.
-
+- [ ] Pfad finden von meiner Datenbank
+- [ ] Guthaben auf meine Datenbank bringen
+- [ ] Alles noch schön gestallten
+      
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
