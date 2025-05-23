@@ -33,7 +33,6 @@ namespace Lern_Oeriode_4
             {
                 connection.Open();
 
-               
                 string checkSql = "SELECT COUNT(*) FROM benutzer WHERE benutzername = @bn OR email = @em";
                 using (var checkCmd = new SqliteCommand(checkSql, connection))
                 {
@@ -48,12 +47,11 @@ namespace Lern_Oeriode_4
                     }
                 }
 
-                
                 string insertSql = @"
                     INSERT INTO benutzer 
-                    (vorname, nachname, benutzername, email, passwort, registriert_am, guthaben_geld, guthaben_jetons)
+                    (vorname, nachname, benutzername, email, passwort, guthaben_geld, guthaben_jetons)
                     VALUES 
-                    (@vorname, @nachname, @benutzername, @email, @passwort, @registriert_am, @geld, @jetons)";
+                    (@vorname, @nachname, @benutzername, @email, @passwort, @geld, @jetons)";
 
                 using (var cmd = new SqliteCommand(insertSql, connection))
                 {
@@ -61,15 +59,13 @@ namespace Lern_Oeriode_4
                     cmd.Parameters.AddWithValue("@nachname", nachname);
                     cmd.Parameters.AddWithValue("@benutzername", benutzername);
                     cmd.Parameters.AddWithValue("@email", email);
-                    cmd.Parameters.AddWithValue("@passwort", passwort);
-                    cmd.Parameters.AddWithValue("@registriert_am", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                    cmd.Parameters.AddWithValue("@passwort", passwort);                    
                     cmd.Parameters.AddWithValue("@geld", 10000);
                     cmd.Parameters.AddWithValue("@jetons", 0);
 
                     try
                     {
-                       
-                        
+                        cmd.ExecuteNonQuery();
                         this.Hide();
                         var loginForm = new LogIn();
                         loginForm.Show();

@@ -47,7 +47,6 @@ namespace Lern_Oeriode_4
 
                 if (treffer > 0)
                 {                    
-                    MessageBox.Show("Login erfolgreich!", "Willkommen", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     
                     new Form1().Show();
                     this.Hide();
